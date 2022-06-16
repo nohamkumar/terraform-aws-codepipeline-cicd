@@ -80,7 +80,7 @@ provider "aws" {
 }
 
 module "cicd-backend" {
-  source      = "git@github.com:studiographene/tf-modules.git//cicd"
+  source      = "git@github.com:nohamkumar/aws-codepipeline-cicd.git"
   namespace   = "sg"
   environment = "dev"
 
