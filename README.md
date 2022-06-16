@@ -118,6 +118,11 @@ terraform plan
 terraform apply
 ```
 
+4. Activate CodeStar connection:
+    GitHub connection is created by Terraform in pending stage.
+    Goto https://us-east-1.console.aws.amazon.com/codesuite/settings/connections and click on "Update connection" to complete the connection
+    by logging into GitHub account.
+
 !! You have successfully setup CICD components as per your specification !!
 
 ---
